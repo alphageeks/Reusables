@@ -1,0 +1,8 @@
+scrap (scrot + append) is a tool for combining scraps of visible content from multiple sources into a single file.
+
+scrot is a requirement.
+
+scrap <filename> does the following:
+1. It waits for you to select a portion of the screen you want to save.
+2a. If filename does not exist, it saves the screenshot as that filename.
+2b. If filename exists, it appends the screenshot below the existing image.

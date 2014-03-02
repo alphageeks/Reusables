@@ -1,0 +1,6 @@
+if [ -e $1 ]
+then
+	scrot -s -e 'convert '$1' $f -append '$1'; rm $f'
+else
+	scrot -s -e 'mv $f '$1
+fi
