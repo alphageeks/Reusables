@@ -1,8 +1,0 @@
-This is a clumsily put together script to download episodes of TV shows from watchseries.lt by following the steps one would do to get the video if they were trying to view it from a browser.
-
-Requires axel and beautifulsoup (bs4)
-
-Usage:
-
-$ python -i download_watchseries.py
->>> getEpisode("boston Legal", 1, 3)
